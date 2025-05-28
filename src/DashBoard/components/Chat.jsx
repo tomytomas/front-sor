@@ -44,9 +44,9 @@ export default function Chat() {
       ]);
     });
 
-    const endpoint = `/${userId}/${chatUserId}`
+    const endpoint = `/messages/${userId}/${chatUserId}`
     axios
-      .get( process.env.REACT_APP_API_URL_MESSAGES + endpoint )
+      .get( process.env.REACT_APP_BACKEND_URL + endpoint )
       .then((response) => setMessages(response.data)+ console.log("Mensajes obtenidos:", response.data))
       .catch((error) => console.error("Error al obtener mensajes:", error));
 
@@ -71,10 +71,9 @@ export default function Chat() {
         senderName,
         message: encryptedMessage,
       }); 
-      
-
+      const endpoin2 = `/messages/send`
       axios
-        .post( `http://localhost:8080/messages/send` || process.env.REACT_APP_API_URL_MESSAGES_SEND , {
+        .post(process.env.REACT_APP_BACKEND_URL + endpoin2 , {
           senderId: userId,
           receiverId: chatUserId,
           senderName,

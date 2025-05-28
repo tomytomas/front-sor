@@ -21,7 +21,7 @@ export default function Dashboard() {
   const [unreadMessages, setUnreadMessages] = useState([]);
   const userId = sessionStorage.getItem("user_id");
   const navigate = useNavigate();
-  const endpoint = `/unread/${userId}`
+  const endpoint = `/messages/unread/${userId}`
 
   useEffect(() => {
     axios
@@ -31,7 +31,7 @@ export default function Dashboard() {
 
     if (userId) {
       axios
-        .get( process.env.REACT_APP_API_URL_MESSAGES + endpoint )
+        .get( process.env.REACT_APP_BACKEND_URL + endpoint )
         .then((response) => setUnreadMessages(response.data))
         .catch((error) => console.error("Error al obtener mensajes no leídos:", error));
     }
