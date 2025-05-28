@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rimraf _static && node sammy.js && react-scripts build && move build _static",
+    "build": "rimraf _static && node sammy.js && react-scripts build && mv build _static",
     "test": "react-scripts test",
     "serve": "serve -s _static -l tcp://0.0.0.0:%PORT% -n",
     "eject": "react-scripts eject"
