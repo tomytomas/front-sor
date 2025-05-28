@@ -1,0 +1,42 @@
+Custom Proprietary License Agreement
+
+Effective Date: 03/18/2025 Licensor: Trucks Talent INC Licensee: Developers or Third parties
+
+1. Ownership and Rights
+
+1.1. All software, source code, algorithms, databases, documentation, and intellectual property developed under this agreement ("Licensed Materials") shall remain the exclusive property of Trucks Talent INC.1.2. The developer acknowledges and agrees that all rights, title, and interest in the software, including modifications, updates, and derivative works, are solely owned by Trucks Talent INC.
+
+2. Permitted Use
+
+2.1. The Licensee is granted a limited, non-transferable, non-exclusive right to use the Licensed Materials only for the purpose explicitly agreed upon by Trucks Talent INC.
+2.2. The Licensee must not distribute, sublicense, sell, lease, or otherwise transfer any part of the Licensed Materials to any third party without written consent from Trucks Talent INC.
+2.3. The Licensee must not copy, reverse-engineer, modify, or create derivative works from the Licensed Materials without prior written authorization.
+
+3. Confidentiality & Non-Disclosure
+
+3.1. The Licensee shall treat the Licensed Materials as confidential and must not disclose, distribute, or provide access to any third party.3.2. The Licensee must take reasonable precautions to prevent unauthorized access or disclosure.3.3. If any unauthorized use or breach occurs, the Licensee must immediately notify Trucks Talent INC and take corrective actions.
+
+4. Non-Compete & Restrictions
+
+4.1. The Licensee must not use the Licensed Materials to develop or assist in developing a competing product or service.4.2. The Licensee must not sell, resell, rent, or license any portion of the software to third parties for personal or commercial gain.
+4.3. The Licensee must not use the Licensed Materials for any purpose not explicitly authorized in writing by Trucks Talent INC.
+
+5. Term & Termination
+
+5.1. This license remains in effect until terminated by Trucks Talent INC.5.2. Trucks Talent INC reserves the right to terminate this license immediately upon breach of any terms stated herein.5.3. Upon termination, the Licensee must immediately cease all use of the Licensed Materials and destroy any copies in their possession.
+
+6. Legal Remedies
+
+6.1. Any breach of this agreement may result in legal action including but not limited to injunctive relief, monetary damages, and attorney fees.6.2. This agreement shall be governed by and construed in accordance with the laws of the State of Florida, USA.
+6.3. Any disputes shall be resolved in the courts of Miami, Florida.
+
+7. Miscellaneous
+
+7.1. This agreement constitutes the entire agreement between the parties regarding the Licensed Materials.
+7.2. Any modifications to this agreement must be in writing and signed by both parties.
+
+By using or accessing the Licensed Materials, the Licensee agrees to be bound by the terms of this agreement.
+
+Authorized Representative of Trucks Talent INC: PEDRO LUIS HIDALGO Title: CEO/PRESIDENT
+
+Licensee:DEVELOPERS Or Third Parties 
