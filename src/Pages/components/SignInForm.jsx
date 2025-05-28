@@ -48,7 +48,7 @@ export default function SignIn() {
     },
     onSubmit: (values) => {
       const { mail, password } = values;
-      const endpoint = "http://localhost:8080/login" ||  process.env.REACT_APP_API_URL_LOGIN;
+      const endpoint = process.env.REACT_APP_API_URL_LOGIN;
    
 
 
