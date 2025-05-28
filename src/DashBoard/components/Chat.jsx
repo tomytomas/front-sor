@@ -44,8 +44,9 @@ export default function Chat() {
       ]);
     });
 
+    const endpoint = `/${userId}/${chatUserId}`
     axios
-      .get(process.env.REACT_APP_API_URL_MESSAGES)
+      .get( process.env.REACT_APP_API_URL_MESSAGES + endpoint )
       .then((response) => setMessages(response.data)+ console.log("Mensajes obtenidos:", response.data))
       .catch((error) => console.error("Error al obtener mensajes:", error));
 
@@ -73,7 +74,7 @@ export default function Chat() {
       
 
       axios
-        .post(process.env.REACT_APP_API_URL_MESSAGES_SEND , {
+        .post( `http://localhost:8080/messages/send` || process.env.REACT_APP_API_URL_MESSAGES_SEND , {
           senderId: userId,
           receiverId: chatUserId,
           senderName,
