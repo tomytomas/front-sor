@@ -66,7 +66,7 @@ export default function SignIn() {
             sessionStorage.setItem("user_id", response.data.user._id);
 
             Swal.fire({
-              text: "User logged in successfully",
+              text: "Usuario logueado correctamente",
               icon: "success",
               confirmButtonText: "Ok",
             }).then((okay) => {
@@ -79,8 +79,6 @@ export default function SignIn() {
         })
         .catch((error) => {
           if (error.response && error.response.status === 403) {
-            localStorage.setItem("emailToVerify", mail);
-
             Swal.fire({
               icon: "info",
               title: "Verify your email",
@@ -91,7 +89,7 @@ export default function SignIn() {
             });
           } else {
             Swal.fire({
-              text: error.message,
+              text: "Usuario o contraseña incorrectos",
               icon: "error",
               confirmButtonText: "Ok",
             });
